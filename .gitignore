@@ -18,3 +18,4 @@ pom.xml.asc
 target/
 .lein-failures
 -lein-repl-history
+.calva/output-window/output.calva-repl
