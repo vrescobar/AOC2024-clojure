@@ -5,6 +5,8 @@
             :url "https://www.gnu.org/licenses/gpl-3.0.en.html"}
   :main ^:skip-aot clj-advent.core
   :target-path "target/%s"
+  :dependencies [[org.clojure/clojure "1.12.0"]
+                 [org.clojure/core.logic "1.1.0"]]
   :profiles {:uberjar {:aot :all
                        :dependencies [[org.clojure/clojure "1.12.0"]]
                        :jvm-opts []}
