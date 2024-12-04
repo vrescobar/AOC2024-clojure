@@ -15,6 +15,7 @@
   (println (str "Solution 01: " (day01/s1)))
   (println (str "Solution 02: " (clj-advent.day02/s2)))
   (println (str "Solution 03: " (clj-advent.day03/s3) ", " (clj-advent.day03/s3-2)))
+  (println (str "Solution 04: " "missed."))
   ;
   )
  
